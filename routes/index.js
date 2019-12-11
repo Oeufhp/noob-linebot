@@ -4,8 +4,8 @@ const middleware = require('@line/bot-sdk').middleware
 const request = require('request')
 
 const config = {
-  channelAccessToken: 'AkszuUsVcaD9twsStokqjWLj8LQMAQfvc4GX/J2+szJrv5G7CSX7uqX4NCee8dWYH1IzMl87dVV6fBiKEzXTWcpuw5GOn22MgngKTQlWYRM84ahrvGLw08kRI/2rELj7/05cjAX58o2ivnf07hDIWAdB04t89/1O/w1cDnyilFU=',
-  channelSecret: '986a2b47b3928ca4d698d5738c181313'
+  channelAccessToken: 'CHANNEL_ACCESS_TOKEN',
+  channelSecret: 'CHANNEL_SECRET'
 }
 
 function handleEvent(event) {
