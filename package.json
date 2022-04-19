@@ -6,11 +6,14 @@
     "start": "nodemon ./bin/www"
   },
   "dependencies": {
-    "@line/bot-sdk": "^6.8.3",
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "express": "~4.16.1",
-    "morgan": "~1.9.1",
-    "request": "^2.88.0"
+    "@line/bot-sdk": "^7.5.0",
+    "cookie-parser": "^1.4.6",
+    "debug": "^4.3.4",
+    "express": "^4.17.3",
+    "morgan": "^1.10.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "yarn-upgrade-all": "^0.7.1"
   }
 }
